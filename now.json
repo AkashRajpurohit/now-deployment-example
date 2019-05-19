@@ -1,0 +1,12 @@
+{
+  "name": "express-example",
+  "version": 2,
+  "env": {},
+  "builds": [{
+    "src": "index.js",
+    "use": "@now/node-server"
+  }],
+  "routes": [
+    { "src": "./(.*)", "dest": "index.js" }
+  ]
+}

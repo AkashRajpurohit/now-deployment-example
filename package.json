@@ -1,0 +1,25 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "An example of a REST api using Express js and Jest for testing",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "homepage": "https://github.com/joshuaferr1s/now-v2-deployments",
+  "bugs": {
+    "url": "https://github.com/joshuaferr1s/now-v2-deployments/issues",
+    "email": "josh.ferris14@gmail.com"
+  },
+  "author": "Joshua Ferris",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.4.1"
+  }
+}
